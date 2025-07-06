@@ -1,58 +1,80 @@
 # 🎓 Trabajo de Grado — *Predicción del Impacto en la Salud según la Calidad del Aire en Manizales* 🌫️🏥
 
-[![Status](https://img.shields.io/badge/Estado-En%20Desarrollo-orange.svg)]()
-[![License](https://img.shields.io/badge/Licencia-MIT-blue.svg)]()
+[![Estado](https://img.shields.io/badge/Estado-En%20Desarrollo-orange.svg)]()
 [![Python](https://img.shields.io/badge/Python-3.11-green.svg)]()
 [![Streamlit](https://img.shields.io/badge/Construido%20con-Streamlit-red.svg)]()
+[![Licencia](https://img.shields.io/badge/Licencia-MIT-blue.svg)]()
 
 ---
 
 <div align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzZ4eTJ6dmQxdWN3aWRwNzAxaXdzd2J2ZWJvZGMzZTR4eDF5c2t3YyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VbnUQpnihPSIgIXuZv/giphy.gif" alt="AI Health Prediction" width="500"/>
+  <img src="https://cdn.pixabay.com/photo/2020/06/25/19/04/ai-5347756_1280.jpg" width="600" alt="Machine Learning and Health"/>
 </div>
 
 ---
 
 ## 🧠 Descripción del Proyecto
 
-Este proyecto de grado aplica técnicas de **Machine Learning** para predecir el impacto de la calidad del aire en variables relacionadas con la **salud de la población** en la ciudad de **Manizales, Colombia**. A través de modelos inteligentes, se busca anticipar riesgos para la salud y facilitar la toma de decisiones informadas por parte de autoridades y ciudadanía.  
+Este proyecto de grado desarrolla un sistema de **Machine Learning** para predecir cómo la calidad del aire afecta a la salud pública en **Manizales, Colombia**. Combinamos datos ambientales y médicos para entrenar modelos que permitan tomar decisiones informadas y proactivas sobre la salud de los ciudadanos.
 
 ---
 
-## 🌎 Contexto
+## 🌍 Contexto
 
-> 🏙️ Manizales es una ciudad andina con condiciones atmosféricas cambiantes. La contaminación del aire puede tener efectos serios sobre enfermedades respiratorias y cardiovasculares.
+> Manizales, como muchas ciudades andinas, enfrenta desafíos ambientales por contaminación del aire que inciden directamente en enfermedades respiratorias, cardiovasculares y alérgicas.
 
-Con la combinación de **datos ambientales** y **datos médicos históricos**, esta app permite visualizar correlaciones, entrenar modelos predictivos y simular escenarios futuros.
+Esta aplicación pretende ser una herramienta de apoyo para la **prevención**, el **análisis** y la **visualización** del impacto en la salud pública.
 
 ---
 
 ## 🚀 Tecnologías Utilizadas
 
 - 🐍 **Python 3.11**
-- 📊 **Pandas**, **NumPy**
 - 🤖 **Scikit-learn**, **XGBoost**, **Keras**, **TensorFlow**
-- 🌐 **Streamlit** para la interfaz web interactiva
-- 📈 **Matplotlib** y **Seaborn** para visualizaciones
-- 📁 **CSV/Excel** como fuente de datos
+- 📊 **Pandas**, **NumPy**, **Matplotlib**, **Seaborn**
+- 🌐 **Streamlit** para visualización interactiva
+- 📁 **CSV/Excel** como fuentes de datos
 
 ---
 
-## 🖼️ Interfaz de la Aplicación
+## 🖼️ Vista previa de la interfaz
 
 <div align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXJsc3ltYjA3Y3h1dHQ3YTYxNHM4ZWp5OWd3MXd6dXg1aWl0cDN5cCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/dWesBcTLavkZuG35MI/giphy.gif" width="600" />
+  <img src="https://cdn.pixabay.com/photo/2020/06/11/18/41/dashboard-5281462_1280.jpg" width="600" alt="Dashboard App Example"/>
 </div>
 
-La app incluye:
-
-- Carga de datos por separado (ambientales y médicos) 📂
-- Selección del algoritmo de ML a utilizar ⚙️
-- Entrenamiento con validación cruzada 📚
-- Visualización de predicciones en tiempo real 📉
-- Interpretación de resultados con métricas estándar 📊
+> La app permite cargar datasets, entrenar modelos, visualizar métricas y generar predicciones en tiempo real.
 
 ---
 
-## 📁 Estructura del Proyecto
+## 📈 Flujo General del Proyecto
+
+<div align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Typical_Machine_Learning_Lifecycle.png/800px-Typical_Machine_Learning_Lifecycle.png" width="700" />
+</div>
+
+1. **Recolección de Datos** (ambientales y médicos)
+2. **Preprocesamiento**
+3. **Selección y entrenamiento de modelos**
+4. **Evaluación**
+5. **Predicción y visualización**
+
+---
+
+## 🔬 Algoritmos Implementados
+
+- 🔵 Regresión Lineal
+- 🟢 Random Forest
+- 🟡 XGBoost
+- 🟣 Redes Neuronales
+- 🔴 SVM
+- 🔷 k-Nearest Neighbors
+
+<div align="center">
+  <img src="https://cdn.pixabay.com/photo/2018/03/06/22/50/artificial-intelligence-3202763_960_720.jpg" width="500" alt="AI Health"/>
+</div>
+
+---
+
+## 📂 Estructura del Proyecto
 
