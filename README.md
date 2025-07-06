@@ -32,8 +32,12 @@ Esta aplicación pretende ser una herramienta de apoyo para la **prevención**, 
 - 🐍 **Python 3.11**
 - 🤖 **Scikit-learn**, **XGBoost**, **Keras**, **TensorFlow**
 - 📊 **Pandas**, **NumPy**, **Matplotlib**, **Seaborn**
-- 🌐 **Streamlit** para visualización interactiva
-- 📁 **CSV/Excel** como fuentes de datos
+- 🌐 **Streamlit** — Interfaz web interactiva
+- 📁 **Fuentes de datos**:
+  - 🌬️ IDEAM. (2020). *SISAIRE - Sistema de Información de Calidad del Aire en Colombia*.  
+    🔗 [http://sisaire.ideam.gov.co/ideam-sisaire-web/consultas.xhtml](http://sisaire.ideam.gov.co/ideam-sisaire-web/consultas.xhtml)
+  - 🏞️ Universidad Nacional de Colombia & CORPOCALDAS. (2015). *CDIAC - Centro de Datos e Indicadores Ambientales de Caldas*.  
+    🔗 [http://cdiac.manizales.unal.edu.co](http://cdiac.manizales.unal.edu.co)
 
 ---
 
