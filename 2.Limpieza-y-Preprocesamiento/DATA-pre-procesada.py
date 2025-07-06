@@ -15,7 +15,6 @@ def cargar_datos(ruta):
     
 # 1er momento de preprocesamiento eliminacion de columnas innecesarias
 def eliminar_columnas(df):
-    """Elimina las columnas especificadas que no son necesarias"""
     columnas_a_eliminar = [
         'Estacion_ICA_SO2',
         'Estacion_PM10',
