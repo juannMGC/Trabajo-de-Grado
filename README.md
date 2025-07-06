@@ -38,6 +38,9 @@ Esta aplicación pretende ser una herramienta de apoyo para la **prevención**, 
     🔗 [http://sisaire.ideam.gov.co/ideam-sisaire-web/consultas.xhtml](http://sisaire.ideam.gov.co/ideam-sisaire-web/consultas.xhtml)
   - 🏞️ Universidad Nacional de Colombia & CORPOCALDAS. (2015). *CDIAC - Centro de Datos e Indicadores Ambientales de Caldas*.  
     🔗 [http://cdiac.manizales.unal.edu.co](http://cdiac.manizales.unal.edu.co)
+  - 🏥 Secretaría de Salud de Caldas. (2025). *Base de datos PQRS*.  
+  🔗 [https://saluddecaldas.gov.co](https://t.almeraim.com/form  data=eyJhcGlrZXkiOiJkdHNjcHFyIiwiY29ubmVjdGlvbiI6InNnaWR0c2MiLCJlbmRwb2ludCI6Imh0dHBzJTNBJTJGJTJGc2dpLmFsbWVyYWltLmNvbSUyRnNnaSUyRmFwaSUyRnYyJTJGIiwiY29kZSI6IlBRUlMifQ==)
+
 
 ---
 
@@ -67,11 +70,9 @@ Esta aplicación pretende ser una herramienta de apoyo para la **prevención**, 
 
 ## 🔬 Algoritmos Implementados
 
-- 🔵 Regresión Lineal
 - 🟢 Random Forest
 - 🟡 XGBoost
 - 🟣 Redes Neuronales
-- 🔴 SVM
 - 🔷 k-Nearest Neighbors
 
 <div align="center">
@@ -79,6 +80,4 @@ Esta aplicación pretende ser una herramienta de apoyo para la **prevención**, 
 </div>
 
 ---
-
-## 📂 Estructura del Proyecto
 
