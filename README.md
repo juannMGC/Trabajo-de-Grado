@@ -1,4 +1,4 @@
-<img width="900" height="506" alt="image" src="https://github.com/user-attachments/assets/e47f5bb6-f265-4002-ac54-2795d01282ae" /># 🎓 Trabajo de Grado — *Predicción del Impacto en la Salud según la Calidad del Aire en Manizales* 🌫️🏥
+## 🎓 Trabajo de Grado — *Predicción del Impacto en la Salud según la Calidad del Aire en Manizales* 🌫️🏥
 
 [![Estado](https://img.shields.io/badge/Estado-En%20Desarrollo-orange.svg)]()
 [![Python](https://img.shields.io/badge/Python-3.11-green.svg)]()
@@ -75,7 +75,7 @@ Esta aplicación pretende ser una herramienta de apoyo para la **prevención**, 
 - 🔷 k-Nearest Neighbors
 
 <div align="center">
-  <img src="https://www.inesa-tech.com/wp-content/uploads/2025/03/0_bD4LYefW7WS6SOmq-1.gif" width="500" alt="AI Health"/>
+  <img src="https://miro.medium.com/v2/resize:fit:541/1*h1dUrjhkHzMU46jW1cQjAg.gif" width="500" alt="AI Health"/>
 </div>
 
 ---
