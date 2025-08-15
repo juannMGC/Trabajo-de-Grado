@@ -13,7 +13,7 @@ import joblib
 
 st.set_page_config(page_title='Manizales ML - Calidad del Aire', layout='wide')
 
-# Cargar animación Lottie
+# Función para cargar animaciones Lottie
 def cargar_lottie_url(url):
     r = requests.get(url)
     if r.status_code != 200:
@@ -25,25 +25,35 @@ lottie_salud = cargar_lottie_url("https://lottie.host/3d5ee517-de54-4bf5-a42f-8c
 st.info('¡Esta aplicación usa Machine Learning para predecir el impacto en la salud según la calidad del aire!')
 
 # Cargar dataset
-df = pd.read_csv("datos_impacto_salud_calidad_aire.csv")
+df = pd.read_csv("BD_impacto_salud_ml.csv")
 
-# Mostrar datos
-with st.expander('📊 Ver datos'):
-    st.dataframe(df)
-    st.write("Variables predictoras (X)")
-    X = df.drop(['PuntajeImpactoSalud', 'ClaseImpactoSalud', 'ID_Registro'], axis=1)
-    st.write(X)
-    st.write("Variable objetivo (y): ClaseImpactoSalud")
-    y = df['ClaseImpactoSalud']
+# Variables predictoras (exactamente como están en el dataset)
+columnas_predictoras = [
+    'ICA', 'ConsultaHospitalariosR', 'ConsultaHospitalariosC',
+    'PM10', 'PM2_5', 'SO2', 'O3',
+    'Temperatura', 'Humedad', 'VelocidadViento',
+    'IngresosHospitalariosR', 'IngresosHospitalariosC'
+]
+
+X = df[columnas_predictoras]
+y = df['ClaseImpactoSalud']
 
 # Escalar datos
 escalador = StandardScaler()
 X_escalado = escalador.fit_transform(X)
 
+# Mostrar datos
+with st.expander('📊 Ver datos'):
+    st.dataframe(df)
+    st.write("Variables predictoras (X)")
+    st.write(X)
+    st.write("Variable objetivo (y): ClaseImpactoSalud")
+    st.write(y)
+
 with st.expander('📈 Visualización de datos'):
     st.scatter_chart(df, x='ICA', y='PuntajeImpactoSalud', color='ClaseImpactoSalud')
 
-# Barra lateral: Configuración
+# Configuración del modelo
 with st.sidebar:
     st.title("🧪 App Salud Ambiental")
     st_lottie(lottie_salud, speed=1, height=150, key="salud")
@@ -66,37 +76,29 @@ with st.sidebar:
         profundidad = st.slider("Profundidad máxima:", 1, 20, 5)
         modelo = RandomForestClassifier(n_estimators=estimadores, max_depth=profundidad)
 
-# Barra lateral: Entrada de datos
+# Entrada de datos
 with st.sidebar:
     st.header('✏️ Ingresar Datos')
     with st.expander("Ingresar características"):
-        ICA = st.slider("ICA", 0, 500, 100)
-        PM10 = st.slider("PM10", 0.0, 500.0, 80.0)
-        PM2_5 = st.slider("PM2.5", 0.0, 500.0, 60.0)
-        NO2 = st.slider("NO2", 0.0, 200.0, 50.0)
-        SO2 = st.slider("SO2", 0.0, 100.0, 10.0)
-        O3 = st.slider("O3", 0.0, 200.0, 70.0)
-        Temperatura = st.slider("Temperatura (°C)", -10.0, 50.0, 25.0)
-        Humedad = st.slider("Humedad (%)", 0.0, 100.0, 60.0)
-        VelocidadViento = st.slider("Velocidad del viento (m/s)", 0.0, 30.0, 3.0)
-        CasosRespiratorios = st.slider("Casos Respiratorios", 0, 1000, 100)
-        CasosCardiovasculares = st.slider("Casos Cardiovasculares", 0, 1000, 50)
-        IngresosHospitalarios = st.slider("Admisiones Hospitalarias", 0, 1000, 80)
+        ICA = st.number_input("ICA", value=0.0)
+        ConsultaHospitalariosR = st.number_input("Consulta Hospitalarios R", value=0.0)
+        ConsultaHospitalariosC = st.number_input("Consulta Hospitalarios C", value=0.0)
+        PM10 = st.number_input("PM10", value=0.0)
+        PM2_5 = st.number_input("PM2.5", value=0.0)
+        SO2 = st.number_input("SO2", value=0.0)
+        O3 = st.number_input("O3", value=0.0)
+        Temperatura = st.number_input("Temperatura (°C)", value=0.0)
+        Humedad = st.number_input("Humedad (%)", value=0.0)
+        VelocidadViento = st.number_input("Velocidad del viento (m/s)", value=0.0)
+        IngresosHospitalariosR = st.number_input("Ingresos Hospitalarios R", value=0.0)
+        IngresosHospitalariosC = st.number_input("Ingresos Hospitalarios C", value=0.0)
 
-    datos_entrada = pd.DataFrame({
-        'ICA': [ICA],
-        'PM10': [PM10],
-        'PM2_5': [PM2_5],
-        'NO2': [NO2],
-        'SO2': [SO2],
-        'O3': [O3],
-        'Temperatura': [Temperatura],
-        'Humedad': [Humedad],
-        'VelocidadViento': [VelocidadViento],
-        'CasosRespiratorios': [CasosRespiratorios],
-        'CasosCardiovasculares': [CasosCardiovasculares],
-        'IngresosHospitalarios': [IngresosHospitalarios]
-    })
+    datos_entrada = pd.DataFrame([[
+        ICA, ConsultaHospitalariosR, ConsultaHospitalariosC,
+        PM10, PM2_5, SO2, O3,
+        Temperatura, Humedad, VelocidadViento,
+        IngresosHospitalariosR, IngresosHospitalariosC
+    ]], columns=columnas_predictoras)
 
 # Mostrar entrada
 with st.expander("🧮 Datos de Entrada"):
@@ -106,7 +108,7 @@ with st.expander("🧮 Datos de Entrada"):
 # Escalar entrada
 datos_entrada_escalado = escalador.transform(datos_entrada)
 
-# Entrenamiento y predicción
+# Entrenar y predecir
 modelo.fit(X_escalado, y)
 prediccion = modelo.predict(datos_entrada_escalado)
 proba_prediccion = modelo.predict_proba(datos_entrada_escalado)
@@ -123,7 +125,7 @@ st.dataframe(proba_df, column_config={
 
 st.success(f"⚠️ Impacto estimado en la salud: **{etiquetas[int(prediccion[0])]}**")
 
-# Guardar modelo + escalador
+# Guardar modelo
 with st.sidebar:
     st.header('💾 Guardar Modelo')
     with st.expander("Guardar modelo"):
