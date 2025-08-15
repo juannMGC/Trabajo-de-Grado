@@ -8,7 +8,7 @@
 ---
 
 <div align="center">
-  <img src="https://cdn.pixabay.com/photo/2020/06/25/19/04/ai-5347756_1280.jpg" width="600" alt="Machine Learning and Health"/>
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWp2emhxZnNvOWkxZHZzODA1NmMxNzNtbDYxdnN3YXphMXJwbzltZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wfqug5nurY6a7WAq1p/giphy.gif" width="600" alt="Machine Learning and Health"/>
 </div>
 
 ---
