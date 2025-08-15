@@ -1,4 +1,4 @@
-<img width="853" height="480" alt="image" src="https://github.com/user-attachments/assets/d997ecb5-917f-4f58-9079-479884a81654" />## 🎓 Trabajo de Grado — *Predicción del Impacto en la Salud según la Calidad del Aire en Manizales* 🌫️🏥
+## 🎓 Trabajo de Grado — *Predicción del Impacto en la Salud según la Calidad del Aire en Manizales* 🌫️🏥
 
 [![Estado](https://img.shields.io/badge/Estado-En%20Desarrollo-orange.svg)]()
 [![Python](https://img.shields.io/badge/Python-3.11-green.svg)]()
