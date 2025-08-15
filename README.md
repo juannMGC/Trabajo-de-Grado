@@ -73,8 +73,12 @@ Esta aplicación pretende ser una herramienta de apoyo para la **prevención**, 
 
 ---
 
-## 🔬 Algoritmos Implementados
-
+## 🔬 Algoritmos Implementados 
+- 🟢 Random Forest
+- 🟡 XGBoost
+- 🟣 Redes Neuronales
+- 🔷 k-Nearest Neighbors
+  
 <div align="center">
   <img src="https://paulvanderlaken.com/wp-content/uploads/2020/01/randomforest.gif" width="400" alt="Random Forest"/>
   <img src="https://paulvanderlaken.com/wp-content/uploads/2020/01/xgboost.gif" width="400" alt="XGBoost"/>
