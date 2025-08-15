@@ -1,4 +1,4 @@
-## 🎓 Trabajo de Grado — *Predicción del Impacto en la Salud según la Calidad del Aire en Manizales* 🌫️🏥
+<img width="853" height="480" alt="image" src="https://github.com/user-attachments/assets/d997ecb5-917f-4f58-9079-479884a81654" />## 🎓 Trabajo de Grado — *Predicción del Impacto en la Salud según la Calidad del Aire en Manizales* 🌫️🏥
 
 [![Estado](https://img.shields.io/badge/Estado-En%20Desarrollo-orange.svg)]()
 [![Python](https://img.shields.io/badge/Python-3.11-green.svg)]()
@@ -56,7 +56,7 @@ Esta aplicación pretende ser una herramienta de apoyo para la **prevención**, 
 ## 📈 Flujo General del Proyecto
 
 <div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Typical_Machine_Learning_Lifecycle.png/800px-Typical_Machine_Learning_Lifecycle.png" width="700" />
+  <img src="https://www.knowmadmood.com/dam/jcr:67652eab-1d05-4186-abdc-edb0f6d6e1f0/ia-ml-observabilidad.2023-09-12-17-22-05.gif" width="700" />
 </div>
 
 1. **Recolección de Datos** (ambientales y médicos)
