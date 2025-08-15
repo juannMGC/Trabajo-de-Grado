@@ -8,7 +8,7 @@
 ---
 
 <div align="center">
-  <img src="[https://cdn.pixabay.com/photo/2020/06/25/19/04/ai-5347756_1280.jpg](https://medicfootprints.org/wp-content/uploads/2020/11/machine-learning-2048x779.png)" width="600" alt="Machine Learning and Health"/>
+  <img src="https://cdn.pixabay.com/photo/2020/06/25/19/04/ai-5347756_1280.jpg" width="600" alt="Machine Learning and Health"/>
 </div>
 
 ---
