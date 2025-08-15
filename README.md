@@ -81,24 +81,32 @@ Esta aplicación pretende ser una herramienta de apoyo para la **prevención**, 
 - 🔷 **k-Nearest Neighbors**  
 
 <div align="center">
-  
-  <img src="https://paulvanderlaken.com/wp-content/uploads/2020/01/randomforest.gif" width="400" alt="Random Forest"/>
-  <br>🟢 <b>Random Forest</b>
-  <br><br>
-  
-  <img src="https://paulvanderlaken.com/wp-content/uploads/2020/01/xgboost.gif" width="400" alt="XGBoost"/>
-  <br>🟡 <b>XGBoost</b>
-  <br><br>
-  
-  <img src="https://paulvanderlaken.com/wp-content/uploads/2020/01/neuralnetwork.gif" width="400" alt="Redes Neuronales"/>
-  <br>🟣 <b>Redes Neuronales</b>
-  <br><br>
-  
-  <img src="https://paulvanderlaken.com/wp-content/uploads/2020/01/knn.gif?w=600" width="400" alt="k-Nearest Neighbors"/>
-  <br>🔷 <b>k-Nearest Neighbors</b>
-  
-</div>
 
+<table>
+<tr>
+<td align="center">
+<img src="https://paulvanderlaken.com/wp-content/uploads/2020/01/randomforest.gif" width="300" alt="Random Forest"/><br>
+🟢 <b>Random Forest</b>
+</td>
+<td align="center">
+<img src="https://paulvanderlaken.com/wp-content/uploads/2020/01/xgboost.gif" width="300" alt="XGBoost"/><br>
+🟡 <b>XGBoost</b>
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<img src="https://paulvanderlaken.com/wp-content/uploads/2020/01/neuralnetwork.gif" width="300" alt="Redes Neuronales"/><br>
+🟣 <b>Redes Neuronales</b>
+</td>
+<td align="center">
+<img src="https://paulvanderlaken.com/wp-content/uploads/2020/01/knn.gif?w=600" width="300" alt="k-Nearest Neighbors"/><br>
+🔷 <b>k-Nearest Neighbors</b>
+</td>
+</tr>
+</table>
+
+</div>
 
 ---
 
