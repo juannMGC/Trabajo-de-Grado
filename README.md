@@ -1,4 +1,4 @@
-# 🎓 Trabajo de Grado — *Predicción del Impacto en la Salud según la Calidad del Aire en Manizales* 🌫️🏥
+# 🎓 Trabajo de Grado — *Machine Learning para predecir el impacto de la calidad del aire en la salud en Manizales.* 🌫️🏥
 
 [![Estado](https://img.shields.io/badge/Estado-En%20Desarrollo-orange.svg)]()
 [![Python](https://img.shields.io/badge/Python-3.11-green.svg)]()
