@@ -1,4 +1,4 @@
-# 🎓 Trabajo de Grado — *Machine Learning para predecir el impacto de la calidad del aire en la salud en Manizales.* 🌫️🏥
+<img width="1846" height="1053" alt="image" src="https://github.com/user-attachments/assets/303af438-b320-419c-aa82-edafd749732c" /># 🎓 Trabajo de Grado — *Machine Learning para predecir el impacto de la calidad del aire en la salud en Manizales.* 🌫️🏥
 
 [![Estado](https://img.shields.io/badge/Estado-En%20Desarrollo-orange.svg)]()
 [![Python](https://img.shields.io/badge/Python-3.11-green.svg)]()
@@ -51,7 +51,7 @@ Esta aplicación pretende ser una herramienta de apoyo para la **prevención**, 
 ## 🖼️ Vista previa de la interfaz
 
 <div align="center">
-  <img src="https://i.ibb.co/p6cC2NX3/GIF.gif" width="600" alt="Vista previa de la interfaz"/>
+  <img src="https://i.ibb.co/j9m7hq4L/GIF.gif" width="600" alt="Vista previa de la interfaz"/>
 </div>
 
 > La app permite entrenar modelos, visualizar métricas y generar predicciones en tiempo real.
