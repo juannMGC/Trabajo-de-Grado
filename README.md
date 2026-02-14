@@ -22,7 +22,7 @@ Combinamos datos ambientales y médicos para entrenar modelos que permitan tomar
 
 ## 🌍 Contexto
 <div align="center">
-  <img src="http://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJ1ohM-k-rBV8vK4tjLIAvYO-GO5jeQu-epNu8tpgOR5jeLrKC_OgInd8D3moX4ESTce8DRFw8ZzQIm4yj8dkiWBTdiIALJ8dHRwUmPdw_sdOsWhC6CzISbh5DKAkkMZYJQXg5UXNu3k4/s1600/Manizales_en_skyscrapercity_%25281%2529_phixr.gif" width="500" alt="Machine Learning and Health"/>
+  <img src="http://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJ1ohM-k-rBV8vK4tjLIAvYO-GO5jeQu-epNu8tpgOR5jeLrKC_OgInd8D3moX4ESTce8DRFw8ZzQIm4yj8dkiWBTdiIALJ8dHRwUmPdw_sdOsWhC6CzISbh5DKAkkMZYJQXg5UXNu3k4/s1600/Manizales_en_skyscrapercity_%25281%2529_phixr.gif" width="1000"/>
 </div>
 > Manizales, como muchas ciudades andinas, enfrenta desafíos ambientales por contaminación del aire que inciden directamente en enfermedades respiratorias, cardiovasculares y alérgicas.
 
