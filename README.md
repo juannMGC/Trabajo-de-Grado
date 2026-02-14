@@ -51,7 +51,7 @@ Esta aplicación pretende ser una herramienta de apoyo para la **prevención**, 
 ## 🖼️ Vista previa de la interfaz
 
 <div align="center">
-  <img src="https://ibb.co/ch5qjL4k"/>
+  <img src="https://i.ibb.co/p6cC2NX3/GIF.gif" width="600" alt="Vista previa de la interfaz"/>
 </div>
 
 > La app permite cargar datasets, entrenar modelos, visualizar métricas y generar predicciones en tiempo real.
