@@ -51,7 +51,7 @@ Esta aplicación pretende ser una herramienta de apoyo para la **prevención**, 
 ## 🖼️ Vista previa de la interfaz
 
 <div align="center">
-  <img src="https://cdn.pixabay.com/photo/2020/06/11/18/41/dashboard-5281462_1280.jpg" width="500" alt="Dashboard App Example"/>
+  <img src="[https://cdn.pixabay.com/photo/2020/06/11/18/41/dashboard-5281462_1280.jpg](https://mail.google.com/mail/u/2/popout?ver=1w13lf8wcziiy#attid%253Datt_19c5ca31e970d590_0.1_f_mlmfqbe10)" width="500" alt="Dashboard App Example"/>
 </div>
 
 > La app permite cargar datasets, entrenar modelos, visualizar métricas y generar predicciones en tiempo real.
