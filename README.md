@@ -27,6 +27,7 @@ Combinamos datos ambientales y médicos para entrenar modelos que permitan tomar
 </div>
 
 > Manizales, como muchas ciudades andinas, enfrenta desafíos ambientales por contaminación del aire que inciden directamente en enfermedades respiratorias, cardiovasculares y alérgicas.
+
 > Esta aplicación pretende ser una herramienta de apoyo para la **prevención**, el **análisis** y la **visualización** del impacto en la salud pública.
 
 ---
