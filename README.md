@@ -80,9 +80,9 @@ Combinamos datos ambientales y médicos para entrenar modelos que permitan tomar
 ## 🔬 Algoritmos Implementados 
 
 - 🟢 **Random Forest**  
-- 🟡 **XGBoost**  
-- 🟣 **Redes Neuronales**  
-- 🔷 **k-Nearest Neighbors**  
+- 🟡 **Regresión Logística**
+- 🔷 **k-Nearest Neighbors**
+- 🟠 **AdaBoost (Adaptive Boosting)**
 
 <div align="center">
 
@@ -93,19 +93,19 @@ Combinamos datos ambientales y médicos para entrenar modelos que permitan tomar
 🟢 <b>Random Forest</b>
 </td>
 <td align="center">
-<img src="https://paulvanderlaken.com/wp-content/uploads/2020/01/xgboost.gif" width="300" alt="XGBoost"/><br>
-🟡 <b>XGBoost</b>
+<img src="https://paulvanderlaken.com/wp-content/uploads/2020/01/ezgif.com-video-to-gif-1.gif" width="300" alt="XGBoost"/><br>
+🟡 <b>Regresion Logistica</b>
 </td>
 </tr>
 
 <tr>
 <td align="center">
-<img src="https://paulvanderlaken.com/wp-content/uploads/2020/01/neuralnetwork.gif" width="300" alt="Redes Neuronales"/><br>
-🟣 <b>Redes Neuronales</b>
-</td>
-<td align="center">
 <img src="https://paulvanderlaken.com/wp-content/uploads/2020/01/knn.gif?w=600" width="300" alt="k-Nearest Neighbors"/><br>
 🔷 <b>k-Nearest Neighbors</b>
+</td>
+<td align="center">
+<img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/0*a4C_r0LfCPb_0FWa.gif" width="300" alt="k-Nearest Neighbors"/><br>
+🟠 <b>AdaBoost </b>
 </td>
 </tr>
 </table>
